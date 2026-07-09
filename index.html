@@ -5,18 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komsay</title>
     <style>
-        body { margin: 0; background: #000; color: #fff; font-family: sans-serif; text-align: center; padding: 20px; }
-        .card { background: #1a1a1a; padding: 20px; margin: 10px auto; border-radius: 15px; max-width: 400px; display: block; color: #fff; text-decoration: none; border: 1px solid #333; }
-        .card:hover { background: #333; }
+        body { 
+            margin: 0; padding: 20px; 
+            background: #000; color: #fff; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+        }
+        .profile-img { 
+            width: 130px; height: 130px; border-radius: 50%; 
+            border: 4px solid #fff; margin: 30px auto; 
+            object-fit: cover; box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+        .card { 
+            background: #1a1a1a; padding: 20px; margin: 15px auto; 
+            border-radius: 20px; max-width: 400px; display: block; 
+            color: #fff; text-decoration: none; border: 1px solid #333; 
+            transition: 0.3s; font-weight: bold;
+        }
+        .card:hover { background: #333; transform: scale(1.02); }
+        h1 { margin-bottom: 5px; }
     </style>
 </head>
 <body>
-    <h1>Komsay Official</h1>
-    <a href="https://youtube.com/@komsay" class="card">YouTube</a>
-    <a href="https://tiktok.com/@komsay" class="card">TikTok</a>
-    <a href="https://instagram.com/komsay" class="card">Instagram</a>
-    <a href="https://t.me/Komsay" class="card">Telegram</a>
-    <a href="https://snapchat.com/add/komsay" class="card">Snapchat</a>
-    <a href="https://facebook.com/komsay" class="card">Facebook</a>
+    <img src="IMG_0511.jpeg" class="profile-img">
+    <h1>Komsay</h1>
+    <p>Kurdish Singer</p>
+
+    <div style="margin-top: 30px;">
+        <a href="https://youtube.com/@komsay" class="card">YouTube</a>
+        <a href="https://tiktok.com/@komsay" class="card">TikTok</a>
+        <a href="https://instagram.com/komsay" class="card">Instagram</a>
+        <a href="https://t.me/Komsay" class="card">Telegram</a>
+        <a href="https://snapchat.com/add/komsay" class="card">Snapchat</a>
+        <a href="https://facebook.com/komsay" class="card">Facebook</a>
+    </div>
 </body>
 </html>
