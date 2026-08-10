@@ -1,0 +1,11 @@
+ئەم ناوانە بە وێنە ڕاستەقینەکان بگۆڕە:
+hero.jpg
+music.jpg
+video.jpg
+gallery.jpg
+bio.jpg
+news.jpg
+contact.jpg
+latest-release.jpg
+
+لە assets/music/ فایلە ڕاستەقینەکانی mp3 دابنێ و ناویان وەک awaye-to.mp3 بکە.
