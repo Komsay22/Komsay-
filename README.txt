@@ -1,1 +1,1 @@
-KOMSAY Luxury Artist Website. Upload all files to the root of your GitHub repository. Put real photos inside assets/images.
+KOMSAY Luxury Website. Upload the contents to GitHub. Real photos go in assets/images; music files in assets/music; videos in assets/videos.

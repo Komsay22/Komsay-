@@ -1,1 +1,1 @@
-document.querySelectorAll('a[href]').forEach(a=>a.addEventListener('click',e=>{const u=a.getAttribute('href');if(u&&u.endsWith('.html')){e.preventDefault();document.body.style.opacity='.4';setTimeout(()=>location.href=u,160)}}));
+// KOMSAY website scripts
